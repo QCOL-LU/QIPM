@@ -1,0 +1,72 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    51
+Number of variables:     5
+Number of constraints:   5
+
+Norm of primal sol:      3.00e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        1.13e+01
+
+Norm of matrix A:        1.00e+00
+Condition number:        4.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[+0.595 -0.126 -0.176 +0.109 -0.088]
+                          [-0.126 +0.662 +0.018 +0.025 -0.080]
+                          [-0.176 +0.018 +0.470 -0.016 -0.049]
+                          [+0.109 +0.025 -0.016 +0.532 +0.230]
+                          [-0.088 -0.080 -0.049 +0.230 +0.866]]
+
+RHS vector b:            [+1.106 -0.161 +0.055 +1.384 +0.912]
+Obj vector c:            [+9.110 -4.622 -0.719 +4.607 +1.432]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+1.960 +0.130 +0.996 +1.868 +0.824]
+Dual slacks:              [+3.263 +0.216 +1.658 +3.110 +1.373]
+Dual variables:           [+7.707 -5.872 -1.922 +1.544 -0.209]
+
+Optimal objective:       +2.63280949e+01
+===========================================================================
+
+[F[K 
+----------------- Linear system Information -----------------
+Norm of RHS vector:      2.00e+00
+Norm of matrix:          1.00e+00
+Condition number:        4.00e+00
+
+Minimum eigenvalue:      +2.50e-01
+
+RHS vector transpose:    [+1.106 -0.161 +0.055 +1.384 +0.912]
+
+Coffcient matrix:        [[+0.595 -0.126 -0.176 +0.109 -0.088]
+                          [-0.126 +0.662 +0.018 +0.025 -0.080]
+                          [-0.176 +0.018 +0.470 -0.016 -0.049]
+                          [+0.109 +0.025 -0.016 +0.532 +0.230]
+                          [-0.088 -0.080 -0.049 +0.230 +0.866]]
+
+------------- Modified linear system Information ------------
+Norm of RHS vector:      1.00e+00
+Norm of matrix:          5.00e-01
+Condition number:        4.00e+00
+
+Norm of difference:      2.40e+00
+Norm of residual:        1.78e+00
+
+------------------- Parameters of the QLSA ------------------
+HHL method:              2
+num_qubits:              8
+Is simulator:            True
+
+-------------------- Results of the QLSA --------------------
+Quantum solution:        [+2.108 -0.637 -0.565 +1.123 -0.642]
+Exact solution:          [+1.960 +0.130 +0.996 +1.868 +0.824]
+
+Norm of difference:      2.40e+00
+Norm of residual:        1.78e+00
+Is sign changed:         True
+Time (s):                4.32e+02
+=============================================================

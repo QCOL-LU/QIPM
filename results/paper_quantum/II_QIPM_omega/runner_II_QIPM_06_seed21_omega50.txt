@@ -1,0 +1,75 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    21
+Number of variables:     4
+Number of constraints:   2
+
+Norm of primal sol:      3.17e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        1.29e+01
+
+Norm of matrix A:        1.00e+00
+Condition number:        2.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[-0.157 +0.512 -0.565 -0.043]
+                          [-0.682 +0.385 -0.115 -0.124]]
+
+RHS vector b:            [+1.608 +1.189]
+Obj vector c:            [+6.908 -6.024 +9.044 +1.271]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+0.000 +3.163 +0.000 +0.237]
+Dual slacks:              [+0.337 +0.000 +4.989 +0.000]
+Dual variables:           [-5.477 -8.367]
+
+Optimal objective:       -1.87570039e+01
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   5.00e+01
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   3.48933787e+02  1.68482221e+01  1.06e+01 3.22e+01  3.71e+03  3.55e-15  4.00e+00 1.00e+00 2.33e+01  7.76e-01 6.61e-01      0s
+   1   3.16102404e+02  1.10097930e+00  5.85e+00 1.78e+01  2.19e+03 *6.65e-02  1.39e+01 4.42e+00 7.66e+01  9.55e-01 4.49e-01      0s
+   2   2.65515916e+02 -2.04612380e+01  2.68e-01 3.55e-02  2.86e+02 *2.73e-01  1.73e+01 9.00e+00 9.27e+01  1.00e+00 9.98e-01      1s
+   3   1.15567989e+01 -2.05982323e+01  3.16e-02 1.02e-15  3.17e+01 *3.16e-02  1.82e+01 9.04e+01 2.82e+00  1.00e+00 1.00e+00      1s
+   4  -1.22530249e+01 -2.03568114e+01  6.58e-03 1.44e-15  8.00e+00  2.16e-03  2.15e+01 1.14e+01 1.73e+00  1.00e+00 8.30e-01      2s
+   5  -1.53229368e+01 -2.00141371e+01  3.29e-03 3.55e-16  4.64e+00  5.89e-04  4.45e+01 5.13e+00 1.87e+00  9.87e-01 4.67e-01      2s
+   6  -1.67816218e+01 -1.97356748e+01  2.00e-03 9.24e-16  2.92e+00  2.07e-04  9.35e+01 5.47e+00 1.86e+00  9.66e-01 4.11e-01      3s
+   7  -1.75131685e+01 -1.95441482e+01  1.41e-03 1.99e-15  2.01e+00  3.61e-04  2.10e+02 6.72e+00 1.85e+00  9.35e-01 3.47e-01      5s
+   8  -1.79028776e+01 -1.94206426e+01  1.15e-03 1.68e-15  1.50e+00  5.80e-04  4.45e+02 8.59e+00 1.84e+00  8.94e-01 2.81e-01      9s
+   9  -1.81236619e+01 -1.93411255e+01  9.43e-04 1.45e-15  1.20e+00  2.26e-04  8.38e+02 1.08e+01 1.84e+00  8.44e-01 2.20e-01     18s
+  10  -1.82625107e+01 -1.92855171e+01  7.77e-04 7.11e-16  1.01e+00  1.62e-06  1.39e+03 1.29e+01 1.84e+00  7.99e-01 1.77e-01     43s
+  11  -1.83581779e+01 -1.92430384e+01  6.63e-04 3.33e-16  8.76e-01  1.56e-05  2.09e+03 1.51e+01 1.83e+00  7.63e-01 1.50e-01    128s
+  12  -1.84279076e+01 -1.92086271e+01  5.80e-04 1.17e-15  7.73e-01  3.23e-05  2.95e+03 1.72e+01 1.83e+00  7.33e-01 1.30e-01    206s
+  13  -1.84809409e+01 -1.91794010e+01  5.17e-04 7.50e-16  6.92e-01  4.35e-05  3.95e+03 1.93e+01 1.83e+00  7.09e-01 1.17e-01    292s
+  14  -1.85226152e+01 -1.91536159e+01  4.62e-04 2.48e-16  6.25e-01  5.88e-06  5.09e+03 2.14e+01 1.83e+00  6.91e-01 1.07e-01    560s
+
+The solution quality is limited by the condition number that the linear system solver can handel.
+
+The algorithm stopped after 15 iterations in 560.30 seconds.
+
+Primal variables:   [+0.032 +3.217 +0.045 +0.182]
+Dual slacks:        [+6.085 +0.056 +1.749 +0.926]
+Dual variables:     [-13.286 +1.859]
+
+Primal objective:   -1.85226152e+01
+Dual objective:     -1.91536159e+01
+
+Primal residual:    4.62e-04
+Dual residual:      2.48e-16
+Complementraty:     6.25e-01
+
+Number of Iter:     15
+Run time:           560.30

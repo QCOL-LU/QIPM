@@ -1,0 +1,35 @@
+[F[K 
+================= Linear system Information =================
+Norm of RHS vector:      2.00e+00
+Condition number:        4.00e+00
+Minimum eigenvalue:      +2.50e-01
+
+RHS vector transpose:    [+0.000 +1.124 +1.124 +0.375 +0.375 +0.562 +0.937]
+
+Coffcient matrix:        [[+0.502 +0.121 +0.027 +0.111 +0.054 -0.028 -0.086]
+                          [+0.121 +0.709 +0.126 +0.055 -0.119 -0.129 -0.063]
+                          [+0.027 +0.126 +0.732 +0.030 -0.055 -0.011 -0.185]
+                          [+0.111 +0.055 +0.030 +0.614 +0.062 -0.012 -0.037]
+                          [+0.054 -0.119 -0.055 +0.062 +0.639 -0.120 -0.020]
+                          [-0.028 -0.129 -0.011 -0.012 -0.120 +0.653 -0.214]
+                          [-0.086 -0.063 -0.185 -0.037 -0.020 -0.214 +0.527]]
+
+=================== Parameters of the QLSA ==================
+Num of ancillae qubits:  5
+Expansion order:         1
+Num of time slices:      1
+Is simulator:            True
+
+==================== Results of the QLSA ====================
+Quantum solution:        [-0.216 +2.315 +2.366 +0.627 +1.869 +3.360 +4.543]
+Exact solution:          [-0.107 +2.422 +2.376 +0.427 +1.936 +3.133 +4.257]
+
+Norm of difference:      4.49e-01
+Infeasibility error:     2.47e-01
+Is sign changed:         False
+Probability:             3.49e-02
+Time (s):                1.04e+01
+
+Circuit depth:           409
+Circuit width:           11
+=============================================================

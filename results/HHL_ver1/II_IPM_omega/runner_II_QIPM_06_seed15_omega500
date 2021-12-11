@@ -1,0 +1,62 @@
+
+================= Linear optimization problem Information =================
+Number of variables:     8
+Number of constraints:   2
+
+Norm of primal sol:      5.00e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        1.68e+00
+Norm of vector c:        9.14e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        2.00e+00
+Seed:                    15
+
+======================= Linear optimization problem =======================
+coeff matrix A:          [[-0.264 -0.305 -0.442 -0.399 -0.273 +0.478 -0.119 +0.251]
+                          [-0.004 +0.028 +0.379 -0.281 -0.010 -0.313 +0.038 -0.174]]
+
+RHS vector b:            [-1.673 -0.107]
+Obj vector c:            [+2.236 +2.418 +1.665 +7.690 +2.343 +1.805 +0.794 -1.163]
+
+============================ Optimal solution =============================
+Primal variables:        [+4.207 +0.887 +0.269 +0.000 +1.365 +0.000 +1.516 +1.509]
+Dual slacks:             [+0.000 +0.000 +0.000 +2.818 +0.000 +4.131 +0.000 +0.000]
+Dual variables:          [-8.407 -5.415]
+
+Optimal objective:       +1.46451829e+01
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   5.00e+02
+num_ancillae:            4
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                      Quantum             Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||   Prob    Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   5.14932503e+03 -8.95094040e+02  2.61e+02 1.41e+03  1.80e+06  3.73e+05 1.10e-01  4.00e+00 1.00e+00 6.11e+02  1.08e-03 8.02e-04      3s
+
+The solution quality is limited by the precision of the linear system solver.
+
+The II-IPM stopped after 1 iterations in 2.63 seconds.
+
+Primal variables:   [+367.194 +365.671 +514.096 +129.646 +359.063 +544.382 +464.480 +516.960]
+Dual slacks:        [+632.446 +633.968 +485.543 +869.993 +640.576 +455.257 +535.159 +482.680]
+Dual variables:     [+495.540 +615.402]
+
+Primal objective:   5.14932503e+03 
+Dual objective:     -8.95094040e+02
+
+Primal residual:    2.61e+02
+Dual residual:      1.41e+03
+Complementraty:     1.80e+06
+
+Number of Iter:     1
+Run time:           2.63

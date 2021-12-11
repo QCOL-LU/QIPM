@@ -1,0 +1,75 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    34
+Number of variables:     4
+Number of constraints:   2
+
+Norm of primal sol:      2.32e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        5.75e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        2.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[-0.016 +0.466 +0.267 +0.264]
+                          [+0.575 +0.728 -0.127 -0.122]]
+
+RHS vector b:            [+1.145 +1.640]
+Obj vector c:            [+4.266 +1.394 -2.835 +2.209]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+0.000 +2.301 +0.273 +0.000]
+Dual slacks:              [+0.304 +0.000 +0.000 +4.991]
+Dual variables:           [-7.443 +6.678]
+
+Optimal objective:       +2.43141777e+00
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-06
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+01
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   3.18906808e+01  0.00000000e+00  1.16e+01 6.24e+00  1.55e+02  1.12e+01  4.00e+00 1.00e+00 1.12e+01  7.79e-01 6.58e-01      0s
+   1   4.16307076e+00 -7.93630234e+00  2.16e+00 1.19e+00  3.71e+01 *9.98e-02  2.03e+00 1.98e+00 1.40e+01  8.88e-01 8.09e-01      0s
+   2   4.17022645e+00 -6.83481835e+00  8.78e-01 4.83e-01  1.96e+01 *1.06e-03  2.04e+00 1.01e+00 2.17e+00  1.00e+00 5.94e-01      0s
+   3   4.25587560e+00 -2.76793791e+00  1.85e-01 1.15e-01  8.07e+00  5.02e-02  2.14e+00 8.94e-01 1.63e+00  1.00e+00 7.62e-01      0s
+   4   4.32408292e+00  1.22654022e+00  6.74e-02 1.98e-02  2.48e+00  8.37e-02  2.40e+00 1.22e+00 1.74e+00  1.00e+00 8.28e-01      0s
+   5   4.17456499e+00  1.43183510e+00  5.84e-02 1.74e-02  2.21e+00  7.31e-03  2.71e+00 3.42e+00 1.76e+00  7.00e-01 1.21e-01      1s
+   6   4.07925651e+00  1.57668894e+00  5.37e-02 1.57e-02  2.01e+00  1.27e-02  2.64e+00 3.77e+00 1.76e+00  6.80e-01 1.01e-01      1s
+   7   4.00196396e+00  1.69396202e+00  5.05e-02 1.42e-02  1.84e+00  2.09e-02  2.61e+00 4.10e+00 1.75e+00  6.64e-01 9.37e-02      1s
+   8   3.92918582e+00  1.79060626e+00  4.76e-02 1.30e-02  1.70e+00  1.88e-02  2.62e+00 4.46e+00 1.75e+00  6.52e-01 8.82e-02      1s
+   9   3.85146690e+00  1.87160546e+00  4.42e-02 1.19e-02  1.57e+00  7.33e-03  2.65e+00 4.85e+00 1.74e+00  6.41e-01 8.42e-02      1s
+  10   3.76418778e+00  1.94058489e+00  3.98e-02 1.09e-02  1.45e+00  9.43e-03  2.73e+00 5.31e+00 1.74e+00  6.35e-01 8.16e-02      1s
+  11   3.67427941e+00  2.00054819e+00  3.53e-02 1.00e-02  1.35e+00  1.65e-02  2.86e+00 5.84e+00 1.73e+00  6.34e-01 8.14e-02      1s
+  12   1.26732895e+00  2.00054819e+00  1.12e+00 3.45e-03  5.63e-01  1.72e+00  3.06e+00 6.49e+00 1.72e+00  1.00e+00 6.56e-01      1s
+  13   1.26597366e+00  2.00054819e+00  1.12e+00 3.44e-03  5.62e-01  1.89e+00  3.15e+00 2.97e+00 1.89e+00  1.00e+00 1.11e-03      1s
+  14   1.26597342e+00  2.00054819e+00  1.12e+00 3.44e-03  5.62e-01  1.89e+00  3.15e+00 2.97e+00 1.89e+00  1.00e+00 1.94e-07      2s
+
+The solution quality is limited by the precision of the linear system solver.
+
+The algorithm stopped after 15 iterations in 1.56 seconds.
+
+Primal variables:   [+0.88681074 +0.47293460 +1.13455384 +0.01851101]
+Dual slacks:        [+0.25200897 +0.17213576 +0.14321237 +5.13097339]
+Dual variables:     [-7.93241234 +6.75711815]
+
+Primal objective:   1.26597342e+00 
+Dual objective:     2.00054819e+00 
+
+Primal residual:    1.12e+00
+Dual residual:      3.44e-03
+Complementraty:     5.62e-01
+
+Number of Iter:     15
+Run time:           1.56

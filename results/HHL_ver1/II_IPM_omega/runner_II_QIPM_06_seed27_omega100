@@ -1,0 +1,64 @@
+
+================= Linear optimization problem Information =================
+Number of variables:     8
+Number of constraints:   2
+
+Norm of primal sol:      5.00e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        3.73e+00
+Norm of vector c:        1.11e+01
+
+Norm of matrix A:        1.00e+00
+Condition number:        2.00e+00
+Seed:                    27
+
+======================= Linear optimization problem =======================
+coeff matrix A:          [[-0.224 -0.190 +0.324 -0.396 -0.317 -0.432 -0.193 +0.244]
+                          [-0.334 -0.412 +0.227 -0.343 +0.043 -0.138 -0.016 -0.215]]
+
+RHS vector b:            [-3.256 -1.821]
+Obj vector c:            [-3.725 -0.166 +7.304 -5.203 -2.386 -4.358 -1.692 +0.817]
+
+============================ Optimal solution =============================
+Primal variables:        [+1.254 +0.000 +0.000 +2.556 +1.129 +2.884 +2.630 +0.618]
+Dual slacks:             [+0.000 +3.711 +3.351 +0.000 +0.000 +0.000 +0.000 +0.000]
+Dual variables:          [+8.290 +5.593]
+
+Optimal objective:       -3.71823734e+01
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+02
+num_ancillae:            4
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                      Quantum             Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||   Prob    Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   4.35218327e+02 -5.07738968e+02  1.50e+01 2.85e+02  5.62e+04  3.62e+04 2.00e-02  4.00e+00 1.00e+00 1.91e+02  5.11e-03 4.11e-03      2s
+   1  -5.15824726e+02 -2.28235406e+02  7.33e+01 2.83e+02  5.13e+04 *6.35e+03 1.78e-02  6.33e+00 7.94e-01 8.02e+01  1.30e-02 9.31e-03      4s
+   2  -4.86385239e+02 -2.53761508e+02  7.07e+01 2.82e+02  5.12e+04  3.86e+03 2.24e-02  3.07e+00 4.08e-01 6.27e+01  1.65e-02 6.61e-04      6s
+
+The solution quality is limited by the precision of the linear system solver.
+
+The II-IPM stopped after 3 iterations in 5.67 seconds.
+
+Primal variables:   [+38.215 +27.104 +46.418 +23.307 +93.504 +57.056 +91.193 +84.194]
+Dual slacks:        [+136.563 +143.478 +68.959 +141.349 +101.600 +122.053 +104.556 +114.184]
+Dual variables:     [+22.883 +98.407]
+
+Primal objective:   -4.86385239e+02
+Dual objective:     -2.53761508e+02
+
+Primal residual:    7.07e+01
+Dual residual:      2.82e+02
+Complementraty:     5.12e+04
+
+Number of Iter:     3
+Run time:           5.67

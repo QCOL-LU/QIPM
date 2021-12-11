@@ -1,0 +1,46 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    71
+Number of variables:     6
+Number of constraints:   2
+
+Norm of primal sol:      4.42e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        4.04e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        1.00e+01
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[+0.055 -0.465 -0.375 +0.447 +0.387 -0.325]
+                          [-0.057 +0.221 +0.179 -0.206 -0.251 +0.072]]
+
+RHS vector b:            [-1.813 +0.845]
+Obj vector c:            [-0.291 +0.113 +0.099 -0.051 +3.090 +2.583]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+0.857 +1.785 +3.841 +0.917 +0.000 +0.000]
+Dual slacks:              [+0.000 +0.000 +0.000 +0.000 +3.791 +3.260]
+Dual variables:           [+4.097 +9.122]
+
+Optimal objective:       +2.86506280e-01
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+01
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   1.14283391e+01 -3.45249307e+00  4.12e-01 5.89e+00  1.69e+02  3.10e-14  1.00e+02 1.00e+00 1.64e+00  8.35e-01 7.38e-01      3s
+   1   6.48329952e+00 -2.15145269e+00  2.04e-01 2.92e+00  8.87e+01 *3.33e-05  1.11e+03 3.38e+00 4.74e+00  7.48e-01 5.04e-01     36s
+   2   5.87237792e+00 -1.68538924e+00  1.65e-01 2.36e+00  7.32e+01 *4.15e-05  4.38e+03 1.05e+01 1.26e+01  7.85e-01 1.91e-01    507s
+   3   5.37818828e+00 -1.26958633e+00  1.31e-01 1.88e+00  5.95e+01 *1.28e-04  5.95e+03 1.48e+01 1.49e+01  8.08e-01 2.06e-01    973s

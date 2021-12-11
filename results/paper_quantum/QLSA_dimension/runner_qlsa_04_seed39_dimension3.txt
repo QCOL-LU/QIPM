@@ -1,0 +1,68 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    39
+Number of variables:     3
+Number of constraints:   3
+
+Norm of primal sol:      2.16e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        5.78e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        4.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[+0.690 +0.128 +0.131]
+                          [+0.128 +0.312 +0.160]
+                          [+0.131 +0.160 +0.872]]
+
+RHS vector b:            [+0.998 +0.765 +1.555]
+Obj vector c:            [-4.079 +2.832 +2.951]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+0.930 +1.356 +1.395]
+Dual slacks:              [+2.156 +3.145 +3.234]
+Dual variables:           [-9.634 +2.600 +0.650]
+
+Optimal objective:       +4.16410142e+00
+===========================================================================
+
+[F[K 
+----------------- Linear system Information -----------------
+Norm of RHS vector:      2.00e+00
+Norm of matrix:          1.00e+00
+Condition number:        4.00e+00
+
+Minimum eigenvalue:      +2.50e-01
+
+RHS vector transpose:    [+0.998 +0.765 +1.555]
+
+Coffcient matrix:        [[+0.690 +0.128 +0.131]
+                          [+0.128 +0.312 +0.160]
+                          [+0.131 +0.160 +0.872]]
+
+------------- Modified linear system Information ------------
+Norm of RHS vector:      1.00e+00
+Norm of matrix:          5.00e-01
+Condition number:        4.00e+00
+
+Norm of difference:      7.48e-03
+Norm of residual:        4.68e-03
+
+------------------- Parameters of the QLSA ------------------
+HHL method:              2
+num_qubits:              6
+Is simulator:            True
+
+-------------------- Results of the QLSA --------------------
+Quantum solution:        [+0.936 +1.357 +1.391]
+Exact solution:          [+0.930 +1.356 +1.395]
+
+Norm of difference:      7.48e-03
+Norm of residual:        4.68e-03
+Is sign changed:         True
+Time (s):                6.05e-01
+=============================================================

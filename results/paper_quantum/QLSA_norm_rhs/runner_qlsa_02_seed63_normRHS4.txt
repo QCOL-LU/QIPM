@@ -1,0 +1,70 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    63
+Number of variables:     4
+Number of constraints:   4
+
+Norm of primal sol:      5.82e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        4.00e+00
+Norm of vector c:        8.06e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        4.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[+0.638 -0.036 +0.121 -0.161]
+                          [-0.036 +0.553 +0.073 +0.314]
+                          [+0.121 +0.073 +0.655 -0.083]
+                          [-0.161 +0.314 -0.083 +0.655]]
+
+RHS vector b:            [+1.756 +2.483 +0.569 +2.536]
+Obj vector c:            [-2.831 +2.492 -4.537 +5.498]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+3.743 +2.677 +0.325 +3.552]
+Dual slacks:              [+3.214 +2.299 +0.279 +3.050]
+Dual variables:           [-8.139 +0.000 -5.722 +1.011]
+
+Optimal objective:       +1.41274484e+01
+===========================================================================
+
+
+----------------- Linear system Information -----------------
+Norm of RHS vector:      4.00e+00
+Norm of matrix:          1.00e+00
+Condition number:        4.00e+00
+
+Minimum eigenvalue:      +2.50e-01
+
+RHS vector transpose:    [+1.756 +2.483 +0.569 +2.536]
+
+Coffcient matrix:        [[+0.638 -0.036 +0.121 -0.161]
+                          [-0.036 +0.553 +0.073 +0.314]
+                          [+0.121 +0.073 +0.655 -0.083]
+                          [-0.161 +0.314 -0.083 +0.655]]
+
+------------- Modified linear system Information ------------
+Norm of RHS vector:      1.00e+00
+Norm of matrix:          2.50e-01
+Condition number:        4.00e+00
+
+Norm of difference:      2.11e-14
+Norm of residual:        1.67e-14
+
+------------------- Parameters of the QLSA ------------------
+HHL method:              2
+num_qubits:              6
+Is simulator:            True
+
+-------------------- Results of the QLSA --------------------
+Quantum solution:        [+3.743 +2.677 +0.325 +3.552]
+Exact solution:          [+3.743 +2.677 +0.325 +3.552]
+
+Norm of difference:      2.11e-14
+Norm of residual:        1.67e-14
+Is sign changed:         False
+Time (s):                7.05e-01
+=============================================================

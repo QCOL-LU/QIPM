@@ -1,0 +1,75 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    96
+Number of variables:     4
+Number of constraints:   2
+
+Norm of primal sol:      5.00e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        3.41e+00
+Norm of vector c:        1.12e+01
+
+Norm of matrix A:        1.00e+00
+Condition number:        1.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[-0.411 +0.379 -0.390 +0.732]
+                          [+0.852 +0.350 -0.377 +0.097]]
+
+RHS vector b:            [+3.085 +1.456]
+Obj vector c:            [-9.452 +2.453 +4.798 +2.634]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+1.155 +0.000 +0.000 +4.865]
+Dual slacks:              [+0.000 +3.719 +3.342 +0.000]
+Dual variables:           [+4.763 -8.793]
+
+Optimal objective:       +1.89129875e+00
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-04
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+03
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   4.34941632e+03 -1.36370302e+03  4.45e+02 9.17e+02  1.94e+06 *1.71e-13  1.00e+00 1.00e+00 1.07e+03  6.62e-01 5.42e-01      0s
+   1   4.78863993e+03 -1.36370302e+03  3.95e+02 8.84e+02  1.87e+06  1.13e+03  3.41e+00 2.99e+00 1.13e+03  3.99e-01 3.61e-02      0s
+   2   5.09950502e+03 -1.36370302e+03  3.60e+02 8.64e+02  1.83e+06  1.38e+03  3.79e+00 3.36e+00 1.38e+03  3.77e-01 2.24e-02      0s
+   3   6.14541838e+03 -1.07654307e+03  2.85e+02 6.84e+02  1.48e+06  6.79e-01  4.07e+00 3.63e+00 1.56e+03  7.95e-01 2.08e-01      0s
+   4   7.37495030e+03 -7.54350316e+02  2.04e+02 4.88e+02  1.09e+06  5.16e-01  4.98e+00 5.23e+00 1.95e+03  8.51e-01 2.87e-01      1s
+   5   8.93429088e+03 -3.97682844e+02  1.11e+02 2.71e+02  6.33e+05  8.61e+00  6.13e+00 8.52e+00 2.44e+03  9.14e-01 4.45e-01      1s
+   6   9.28400532e+03 -3.97682844e+02  7.73e+01 2.67e+02  6.25e+05  3.07e+03  7.60e+00 1.84e+01 3.07e+03  2.92e-01 1.28e-02      1s
+   7   1.10552911e+04 -2.24891224e+01  5.84e+00 2.71e+01  7.80e+04  4.77e+00  8.08e+00 1.96e+01 3.33e+03  9.48e-01 8.99e-01      1s
+   8   1.03646997e+04 -9.71376102e+00  2.44e+00 4.09e-15  1.04e+04  2.44e+00  6.96e+00 1.91e+02 2.01e+03  1.00e+00 1.00e+00      1s
+   9   9.58756367e+02 -9.71376102e+00  6.26e+00 0.00e+00  1.04e+03  6.26e+00  3.79e+00 9.81e+02 6.26e+00  1.00e+00 1.00e+00      1s
+  10   9.58756367e+01 -9.71376102e+00  3.35e+00 0.00e+00  1.04e+02  3.35e+00  3.23e+00 1.16e+02 3.35e+00  1.00e+00 1.00e+00      1s
+  11   9.58756367e+00 -9.71376102e+00  3.40e+00 0.00e+00  1.04e+01  3.40e+00  3.23e+00 1.16e+01 3.40e+00  1.00e+00 1.00e+00      1s
+  12   1.57453126e+00 -9.71376102e+00  3.41e+00 0.00e+00  1.71e+00  3.41e+00  3.23e+00 1.16e+00 3.41e+00  1.00e+00 9.29e-01      1s
+  13   1.57256120e+00 -9.71376102e+00  3.41e+00 0.00e+00  1.70e+00  3.41e+00  3.23e+00 1.90e-01 3.41e+00  1.00e+00 1.39e-03      1s
+  14   1.57256028e+00 -9.71376102e+00  3.41e+00 0.00e+00  1.70e+00  3.41e+00  3.23e+00 1.90e-01 3.41e+00  1.00e+00 6.52e-07      2s
+
+The solution quality is limited by the precision of the linear system solver.
+
+The algorithm stopped after 15 iterations in 1.78 seconds.
+
+Primal variables:   [+0.136922 +0.072181 +0.418494 +0.258920]
+Dual slacks:        [+3.112961 +5.905037 +1.018495 +1.646202]
+Dual variables:     [+3.102702 -13.244885]
+
+Primal objective:   1.57256028e+00 
+Dual objective:     -9.71376102e+00
+
+Primal residual:    3.41e+00
+Dual residual:      0.00e+00
+Complementraty:     1.70e+00
+
+Number of Iter:     15
+Run time:           1.78

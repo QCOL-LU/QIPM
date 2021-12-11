@@ -1,0 +1,44 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    41
+Number of variables:     2
+Number of constraints:   2
+
+Norm of primal sol:      2.20e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        3.96e+00
+
+Norm of matrix A:        1.00e+00
+Condition number:        1.00e+01
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[+0.717 +0.439]
+                          [+0.397 +0.382]]
+
+RHS vector b:            [+1.726 +1.010]
+Obj vector c:            [+3.810 -1.074]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+2.164 +0.398]
+Dual slacks:              [+4.918 +0.903]
+Dual variables:           [+3.612 -9.325]
+
+Optimal objective:       +7.81677134e+00
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+01
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0   8.37547636e+00 -1.50740787e+01  3.41e-01 3.63e-01  2.83e+01 *3.97e-15  1.00e+02 1.00e+00 1.09e+01  1.00e+00 9.71e-01      2s
+   1   7.77937328e+00  2.18452619e+00  1.22e-03 1.78e-15  5.69e+00  1.22e-03  2.37e+02 2.01e-01 1.74e+00  1.00e+00 1.00e+00      4s

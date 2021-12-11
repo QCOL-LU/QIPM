@@ -1,0 +1,71 @@
+
+--------------- Linear optimization problem characteristics ---------------
+Seed:                    73
+Number of variables:     4
+Number of constraints:   2
+
+Norm of primal sol:      2.06e+00
+Norm of dual sol:        1.00e+01
+Norm of dual slacks:     5.00e+00
+
+Norm of vector b:        2.00e+00
+Norm of vector c:        1.25e+01
+
+Norm of matrix A:        2.00e+00
+Condition number:        2.00e+00
+
+----------------------- Linear optimization problem -----------------------
+Coeff matrix A:          [[-0.071 +1.193 +1.322 +0.399]
+                          [-0.032 +1.063 -0.228 +0.694]]
+
+RHS vector b:            [+1.467 +1.359]
+Obj vector c:            [+0.333 -10.923 +5.166 -3.202]
+
+---------------------------- Optimal solution -----------------------------
+Primal variables:         [+1.581 +1.325 +0.000 +0.000]
+Dual slacks:              [+0.000 +0.000 +3.213 +3.831]
+Dual variables:           [-0.245 -9.997]
+
+Optimal objective:       -1.39451842e+01
+===========================================================================
+
+Method:                  II-QIPM
+LO_Precision:            1.00e-01
+Stop_Precision:          1.00e-03
+LO_Verbosity:            2
+Omega:                   1.00e+01
+
+The Quantum Inexact Infeasible Interior-Point Method starts running ...
+
+
+                  Objective                Residual                                Linear system           Step-length
+Iter      Primal           Dual         Primal    Dual     Compl    ||Resl||  Cond-Num  ||M||   ||RHS||    a-star   a-hat      Time
+   0  -1.31334541e+01 -2.38181724e+01  3.91e+00 3.50e+00  7.54e+01 *1.00e-14  4.00e+00 4.00e+00 4.80e+01  9.50e-01 8.70e-01      0s
+   1  -1.17166961e+01 -2.38181724e+01  3.27e+00 3.09e+00  6.75e+01  1.65e+00  3.69e+00 8.19e-01 1.65e+00  6.65e-01 1.16e-01      0s
+   2  -1.06821270e+01 -2.38181724e+01  2.83e+00 2.84e+00  6.26e+01  2.13e+00  3.90e+00 7.98e-01 2.13e+00  6.22e-01 8.09e-02      0s
+   3  -1.00443560e+01 -2.29629884e+01  2.44e+00 2.45e+00  5.49e+01  9.99e-04  4.09e+00 7.90e-01 2.48e+00  7.72e-01 1.38e-01      1s
+   4  -9.47645870e+00 -2.19812576e+01  2.08e+00 2.08e+00  4.76e+01  1.16e-03  4.45e+00 8.48e-01 2.83e+00  7.93e-01 1.50e-01      1s
+   5  -8.98586640e+00 -2.08487539e+01  1.72e+00 1.73e+00  4.04e+01  1.30e-04  4.93e+00 9.38e-01 3.18e+00  8.26e-01 1.72e-01      1s
+   6  -8.60922714e+00 -1.95180511e+01  1.36e+00 1.36e+00  3.29e+01  3.88e-03  5.60e+00 1.08e+00 3.54e+00  8.74e-01 2.10e-01      1s
+   7  -8.45811283e+00 -1.79112605e+01  9.72e-01 9.76e-01  2.47e+01  1.03e-02  6.63e+00 1.32e+00 3.91e+00  9.45e-01 2.84e-01      1s
+   8  -8.88497241e+00 -1.58462662e+01  5.13e-01 5.15e-01  1.46e+01  9.38e-03  8.49e+00 1.80e+00 4.26e+00  9.26e-01 4.72e-01      1s
+   9  -1.08841411e+01 -1.43367509e+01  1.60e-01 1.59e-01  5.91e+00  4.77e-02  1.35e+01 3.41e+00 4.34e+00  8.92e-01 6.91e-01      1s
+  10  -1.29861050e+01 -1.40980194e+01  4.37e-03 3.77e-03  1.17e+00  1.64e-03  3.28e+01 1.28e+01 3.00e+00  1.00e+00 9.76e-01      2s
+  11  -1.38904785e+01 -1.40294934e+01  2.19e-05 1.88e-05  1.39e-01  3.35e-07  1.12e+02 4.99e+01 1.55e+00  1.00e+00 9.95e-01      3s
+  12  -1.39079646e+01 -1.40055268e+01  6.65e-05 1.25e-05  9.72e-02  2.07e-04  1.69e+03 8.99e+01 1.86e+00  8.80e-01 3.36e-01     26s
+
+The algorithm stopped after 13 iterations in 26.27 seconds.
+
+Primal variables:   [+1.736 +1.327 +0.005 +0.005]
+Dual slacks:        [+0.016 +0.026 +2.463 +4.027]
+Dual variables:     [+0.226 -10.551]
+
+Primal objective:   -1.39079646e+01
+Dual objective:     -1.40055268e+01
+
+Primal residual:    6.65e-05
+Dual residual:      1.25e-05
+Complementraty:     9.72e-02
+
+Number of Iter:     13
+Run time:           26.27
