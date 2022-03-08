@@ -1,4 +1,4 @@
-from ipm.general_methods.qlsa import QLSA
+from ipm.linear_system_solvers.linear_system_solvers import *
 from ipm.print_methods.print_IPM import *
 
 import numpy as np
@@ -101,12 +101,10 @@ def inexact_feasible_IPM(LO):
 			#-------------------------------------------------------------------
 			# Liner system solver solution
 			#-------------------------------------------------------------------
-			if LO.Params.Is_Quantum == True:
-				lam, norm_of_residual, is_sign_changed 	= QLSA(M, r, LO.Params)
-			else:
-				is_sign_changed 	= False
-				norm_of_residual 	= 0
-				lam 				= np.linalg.solve(M, r)	
+			lam, norm_of_residual, is_sign_changed 	= linear_system_solver(M, r, LO.Params) 
+
+			if LO.Params.Is_Quantum == False:
+					
 				# add random error to solution	
 				eps 				= (eta*mu)/np.linalg.norm(M)
 				err                 = eps/len(lam)
@@ -207,13 +205,9 @@ def inexact_feasible_IPM(LO):
 			#-------------------------------------------------------------------
 			# Liner system solver solution
 			#-------------------------------------------------------------------
-			if LO.Params.Is_Quantum == True:
-				z, norm_of_residual, is_sign_changed 	= QLSA(M, r, LO.Params)
-			else:
-				is_sign_changed 	= False
-				norm_of_residual 	= 0
-				z 					= np.linalg.solve(M, r)
-				
+			lam, norm_of_residual, is_sign_changed 	= linear_system_solver(M, r, LO.Params) 
+			
+			if LO.Params.Is_Quantum == False:
 				# # add random error to solution	
 				eps 				= (eta*mu)/np.linalg.norm(M)
 				err                 = eps/len(z)

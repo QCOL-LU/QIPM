@@ -1,4 +1,4 @@
-from ipm.general_methods.qlsa import QLSA
+from ipm.linear_system_solvers.linear_system_solvers import *
 from ipm.print_methods.print_IPM import *
 
 import numpy as np
@@ -154,13 +154,8 @@ def inexact_infeasible_IPM_SDO(LO):
 		#-------------------------------------------------------------------
 		# Liner system solver solution
 		#-------------------------------------------------------------------
-		if LO.Params.Is_Quantum == True:
-			delta_y, norm_of_residual, is_sign_changed 	= QLSA(M, r, LO.Params) 
+		delta_y, norm_of_residual, is_sign_changed 	= linear_system_solver(M, r, LO.Params) 
 
-		else:
-			is_sign_changed 	= False
-			norm_of_residual 	= 0
-			delta_y 			= np.linalg.solve(M, r)		
 
 
 		#-------------------------------------------------------------------

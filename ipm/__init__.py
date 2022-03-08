@@ -1,6 +1,5 @@
-from general_methods.qlsa import QLSA
-# from general_methods.qlsa_ver0 import QLSA2
+from linear_system_solvers.linear_system_solvers import *
 from general_methods.Model import Model
 from general_methods.SDO import SDO
-from general_methods.problem_generator import generate_problem
+from problem_generators.problem_generators import generate_problems
 from ipm.general_methods.ParametersDefault import Parameters

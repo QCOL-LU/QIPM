@@ -28,9 +28,12 @@ class Parameters():
 
 		self.seed 				= 6261997 
 
-		self.have_interior		= True
+		self.has_interior		= True
+		self.has_optimal		= True
+
 		self.make_psd			= False 
 		self.do_print			= False 
+		self.qlsa_print			= False 
 		self.symmetry			= False
 
 		self.time_limit 		= 100
@@ -40,8 +43,13 @@ class Parameters():
 		# Default values of paramters
 		#-------------------------------------------------------------------
 		self.Method 			= "II-IPM"
+		self.LS_Method 			= "LS"
 		self.Is_Quantum 		= False
 		self.Is_Simulator 		= True
+		self.Is_Noisy			= False
+
+		self.LS_Precision 		= 1e-1
+		self.IR_LS_Precision 	= 1e-8
 
 		self.IR_Precision 		= 1e-10
 		self.LO_Precision 		= 1e-8
@@ -77,4 +85,8 @@ class Parameters():
 		#------------------------------------------------------------------- 
 		self.ScalFact 			= 1e2							# Scaling factor
 		self.IncScalLim 		= 10  							# Incremental scaling limit
+
+
+		self.LS_ScalFact 		= 1								# Scaling factor
+		self.LS_IncScalLim 		= 2  							# Incremental scaling limit
 

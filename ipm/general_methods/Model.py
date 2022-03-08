@@ -173,6 +173,8 @@ class Model(Parameters):
 			if (default_paramters.IR_Precision != self.Params.IR_Precision):
 				print("{:25}{:>8.2e}".format("IR_Precision:", self.Params.IR_Precision) )
 
+			print("{:25}{:>8.2e}".format("IR_LS_Precision:", self.Params.IR_LS_Precision) )
+
 			if (default_paramters.IR_Verbosity != self.Params.IR_Verbosity):
 				print("{:25}{}".format("IR_Verbosity:", self.Params.IR_Verbosity) )
 

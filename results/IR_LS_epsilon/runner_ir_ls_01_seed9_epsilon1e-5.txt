@@ -1,0 +1,46 @@
+
+ -----------------Linear system Information-----------------
+Linear system solver:    IR-LS
+Is quantum:              True
+
+LS_Precision:            0.1
+IR_LS_Precision:         1e-05
+
+LS_ScalFact:             1
+LS_IncScalLim:           2
+
+Norm of RHS vector:      4.00e+00
+Norm of matrix:          4.00e+00
+Minimum eigenvalue:      +2.00e-01
+Condition number:        2.00e+01
+
+RHS vector transpose:    [-0.622 +3.087 +2.340 +0.780]
+Coffcient matrix:        [[+1.096 -0.535 -0.120 -0.723]
+                          [-0.535 +3.727 +0.345 +0.119]
+                          [-0.120 +0.345 +2.607 +0.679]
+                          [-0.723 +0.119 +0.679 +0.970]]
+-------------------------------------------------------------
+
+The IR-LS algorithm has started.
+
+iter     diff-QLSA       ||r||         nabla         time
+   1     6.323e-03     1.553e-02     2.000e+00         3s
+   2     1.583e-02     1.744e-04     4.000e+00         7s
+   3     8.640e-03     2.043e-06     8.000e+00        10s
+-------------------------------------------------------------
+
+The algorithm successfully terminated.
+
+------------Results of the linear system solver------------
+Quantum solution:        [+0.016 +0.755 +0.746 +0.201]
+Exact solution:          [+0.016 +0.755 +0.746 +0.201]
+
+Norm of difference:      9.34e-07
+Norm of residual:        2.04e-06
+
+QLSA relative error:     8.64e-03
+Is sign changed:         False
+iteration:               3
+
+Time (s):                9.81e+00
+=============================================================

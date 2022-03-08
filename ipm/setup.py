@@ -5,6 +5,6 @@ setup(name='ipm',
       description='Interior-Point Method',
       author='Ramin Fakhimi',
       author_email='fakhimi@lehigh.edu',
-      url='https://github/fakhimi/ipm',
+      url='https://github/QCOL-LU/QIPM',
       packages=[],
      )
